@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{57D407BF-141F-94F6-E788-C8212021D146}") = "TestTwister", "Assembly-CSharp-vs.csproj", "{C6CBC76F-A682-C57F-729E-4B2D845A91C6}"
+EndProject
+Project("{57D407BF-141F-94F6-E788-C8212021D146}") = "TestTwister", "Assembly-CSharp-Editor-vs.csproj", "{B9DFF45A-4CC5-60AB-9637-13CE43F1058F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6CBC76F-A682-C57F-729E-4B2D845A91C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CBC76F-A682-C57F-729E-4B2D845A91C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CBC76F-A682-C57F-729E-4B2D845A91C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CBC76F-A682-C57F-729E-4B2D845A91C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DFF45A-4CC5-60AB-9637-13CE43F1058F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DFF45A-4CC5-60AB-9637-13CE43F1058F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DFF45A-4CC5-60AB-9637-13CE43F1058F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DFF45A-4CC5-60AB-9637-13CE43F1058F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnityNormalDistribution.cs">
+    <Files>
+      <File FileName="Assets/Editor/MersenneDebugDrawing.cs" Line="1" Column="1" />
+      <File FileName="Assets/Editor/MersenneDebugWindow.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UnityMersenneTwister.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UnityNormalDistribution.cs" Line="94" Column="47" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

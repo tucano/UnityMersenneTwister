@@ -1,0 +1,46 @@
+== RANDOM NUMBERS IN UNITY C# scripting ==
+
+ * Mersenne Twister
+ * Normalization
+
+
+== TODO ==
+
+ * Better interface (EditorWindow) and Interactions with Scene
+ * Better data representation in EditorInterface
+ * More normalization methods
+
+Feel free to contribute and add new features.
+
+== FILES ==
+
+This directory is a Unity Project with .gitignore ignoring the common files for the Unity FREE Version
+
+see: http://forum.unity3d.com/threads/69609-Source-Control-w-Free-Unity-ignore-files-(Git-SVN-CVS)
+
+- If you want to contribute clone the repo, modify and ask for a pull request
+
+- If you just want to use it, you can take the file Package/TwisterAndNormalize.unitypackage .
+
+I started playing with the Unity framework and I came out with this first small library that may be is useful for someone else.
+
+I ported into Unity the Mersenne-Twister pseudorandom number generator and a function to convert the random sets of data in a Normal Distribution.
+
+Still "work in progress" but I want to post the code to see if anyone is interested in help me with critics and suggestions.
+
+
+The unity package contains:
+
+Scripts
+
+- UnityMersenneTwister.cs: Mersenne Twister Pseudo Random generator
+- UnityNormalDistribution.cs: Functions to convert the random number using a normal cdf
+
+Editor/Scripts
+
+- MersenneDebugWindow.cs : This script create a window to test the random numbers and the normalization, and to write a random numbers to a file (for further analysis with a statistics package)
+- MersenneDebugDrawing.cs : This script is used to draw a simple scatterplot of the random generated data
+
+In syntesis: we generate normal distributed random numbers that can be useful in some applications inside a game (AI beaviour, terrain generation, etc....). If you need a Gaussian noise, may be this package is for you!
+
+

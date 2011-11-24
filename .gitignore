@@ -1,0 +1,34 @@
+#UPDATE: I assumed it would work for SVN and CVS
+#but dreamora pointed out that they would have issues
+#We use Git and currently have had no issues
+#Git is also Rad, I dont use SVN or CVS anymore unless I'm forced.
+
+#this is the git ignore file if you want to use the free Unity 
+# the ! negates an ignore, so you ignore everything in Library then
+#un-ignore the metadata folder and those specific files
+#use at your own risk.
+
+#NOTE: this will cause your collaborators to re-import assets
+# (previews and cache), but it seems to have no value to keep in source control
+
+#I also wanted to note that Unity selling an asset server is retarded.
+#We already have awesome source control systems that we know are safe and
+#reliable. Why anyone would use the asset server is beyond me; why Unity felt the need to
+#recreate a well developed tool seems greedy. Focus on your product not on making things 
+#more difficult for your users.
+
+Temp/*
+Library/*
+
+
+!Library/*.asset
+!Library/AssetImportState
+!Library/AssetVersioning.db
+!Library/BuildPlayer.prefs
+!Library/ScriptMapper
+!Library/assetservercachev3
+!Library/expandedItems
+!Library/guidmapper
+!Library/unity default resources
+!Library/unity editor resources
+!Library/metadata/
